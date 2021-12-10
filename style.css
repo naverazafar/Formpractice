@@ -191,6 +191,32 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
+.click {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clickerbutton {
+    width: 25px;
+    height: 25px;
+}
+
+.image {
+    height: 50px;
+    width: 60px;
+}
+
+.newcontent {
+    padding-bottom: 25px;
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
 @media screen and (max-width: 600px) {
     form {
         width: 200px;
